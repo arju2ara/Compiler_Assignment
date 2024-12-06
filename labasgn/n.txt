@@ -1,0 +1,81 @@
+(Line   2)   KEYWORD: start
+(Line   2)   Symbol: {
+(Line   3)   KEYWORD: let
+(Line   3)   Identifier: a
+ (Line   3)   KEYWORD : appoint
+(Line   3)   Number: 5
+(Line   4)   KEYWORD: let
+(Line   4)   Identifier: b
+ (Line   4)   KEYWORD : appoint
+(Line   4)   Number: 10
+(Line   5)   KEYWORD: let
+(Line   5)   Identifier: c
+(Line   6)   KEYWORD: show
+(Line   6)   String: "Enter a positive number: "
+(Line   7)   KEYWORD: sweep
+(Line   7)   Symbol: (
+(Line   7)   Identifier: c
+(Line   7)   Symbol: )
+(Line   8)   KEYWORD: when
+(Line   8)   Identifier: a
+ (Line   8)   KEYWORD: gt
+(Line   8)   Identifier: b
+(Line   8)   Symbol: {
+(Line   9)   KEYWORD: show
+(Line   9)   String: "first number is greater than second number"
+(Line  10)   Symbol: }
+(Line  11)   KEYWORD: eotherwise
+(Line  11)   Identifier: a
+ (Line  11)   KEYWORD : identical
+(Line  11)   Identifier: b
+(Line  11)   Symbol: {
+(Line  12)   KEYWORD: show
+(Line  12)   String: "first number is equal to second number"
+(Line  13)   Symbol: }
+(Line  14)   KEYWORD: eotherwise
+(Line  14)   Identifier: a
+ (Line  14)   KEYWORD : identical
+(Line  14)   Identifier: c
+(Line  14)   Symbol: {
+(Line  15)   KEYWORD: show
+(Line  15)   String: "first number is equal to third number"
+(Line  16)   Symbol: }
+(Line  17)   KEYWORD: otherwise
+(Line  17)   Symbol: {
+(Line  18)   KEYWORD: show
+(Line  18)   String: "first number is less than second number"
+(Line  19)   Symbol: }
+(Line  21)   KEYWORD: let
+(Line  21)   Identifier: d
+ (Line  21)   KEYWORD : appoint
+(Line  21)   Number: 4
+(Line  22)   KEYWORD: button
+(Line  22)   Symbol: (
+(Line  22)   Identifier: d
+(Line  22)   Symbol: )
+(Line  22)   Symbol: {
+(Line  23)   KEYWORD: case
+(Line  23)   Number: 1
+ (Line  23)   Unknown  syntax error  :
+(Line  24)   KEYWORD: cease
+ (Line  24)   Unknown  syntax error  ;
+(Line  25)   KEYWORD: case
+(Line  25)   Number: 2
+ (Line  25)   Unknown  syntax error  :
+(Line  26)   KEYWORD: cease
+ (Line  26)   Unknown  syntax error  ;
+(Line  27)   KEYWORD: standby
+ (Line  27)   Unknown  syntax error  :
+ (Line  28)   Unknown  syntax error  #
+(Line  28)   Identifier: compiler
+ (Line  28)   Unknown  syntax error  @
+(Line  28)   Identifier: assignment
+(Line  30)   Symbol: }
+(Line  32)   Symbol: }
+
+Token Counts:
+Keywords: 27
+Identifiers: 14
+Numbers: 5
+Symbols: 16
+Strings: 5
